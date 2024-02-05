@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2024-02-05T10:18:13.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="8bx3X0lJawSTrjuZxXrR" version="21.6.1" type="github">
+  <diagram name="Page-1" id="coqTTkO4JQivbCuOuoYV">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D5pE51rbl7WHbhlYldTh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-1" target="D5pE51rbl7WHbhlYldTh-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-1" value="Check running VM on Azure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336.25" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5pE51rbl7WHbhlYldTh-2" target="D5pE51rbl7WHbhlYldTh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-2" target="D5pE51rbl7WHbhlYldTh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-2" value="Is Image deprecated" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="351.25" y="150" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-3" value="Image is not available for New Deployments&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336.25" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-4" value="No action" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5pE51rbl7WHbhlYldTh-9" target="D5pE51rbl7WHbhlYldTh-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="469.80952380952374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-9" target="D5pE51rbl7WHbhlYldTh-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-9" value="customer on unsupported RHEL VM" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336.25" y="420" width="117.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-11" value="No action" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-12" target="D5pE51rbl7WHbhlYldTh-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-12" value="Block Updates from RHUI for unsupported RHEL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-15" target="D5pE51rbl7WHbhlYldTh-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-15" target="D5pE51rbl7WHbhlYldTh-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-15" value="customer VM update/migrate to supported version" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="324.37" y="680" width="141.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-18" value="No action" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-20" target="D5pE51rbl7WHbhlYldTh-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-20" value="Customer is unable to use new image, or need more time&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-23" target="D5pE51rbl7WHbhlYldTh-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-23" value="Customer may ask for exception/extension" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="324.37" y="930" width="141.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-25" target="D5pE51rbl7WHbhlYldTh-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-25" value="We can provide additional 3 months exception with no renewal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="323.13" y="1130" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-26" target="D5pE51rbl7WHbhlYldTh-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-26" target="D5pE51rbl7WHbhlYldTh-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-26" value="customer stopped using VM running on unsupported OS" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314.38" y="1270" width="163.75" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-28" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1315" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-30" target="D5pE51rbl7WHbhlYldTh-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-30" value="Engage CSS support to guide customer" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="323.13" y="1500" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5pE51rbl7WHbhlYldTh-34" target="D5pE51rbl7WHbhlYldTh-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-34" value="customer stopped using VM running on unsupported OS" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314.38" y="1640" width="163.75" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-35" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="323.13" y="1850" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pE51rbl7WHbhlYldTh-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5pE51rbl7WHbhlYldTh-34" target="D5pE51rbl7WHbhlYldTh-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1710" as="sourcePoint" />
+            <mxPoint x="170" y="1530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="1720" />
+              <mxPoint x="120" y="1535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
